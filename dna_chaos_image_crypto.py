@@ -308,9 +308,13 @@ def main():
 
     # Encrypt & decrypt
     cipher, aux = encrypt_image(img, seed=args.seed, mu=args.mu, op=args.op)
+    
+    print(aux)
+    cv2.imwrite("temp_encrypted.png", cv2.cvtColor(cipher, cv2.COLOR_RGB2BGR))
     plain = decrypt_image(cipher, aux)
-
-    # Verify
+    # print(aux)
+    # Verify hello 
+    print("Hello")
     ok = np.array_equal(img, plain)
     print("Decryption exact match:", ok)
 
