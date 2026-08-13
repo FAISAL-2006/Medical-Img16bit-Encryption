@@ -1,0 +1,48 @@
+# Python cache and virtual envs
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+.pytest_cache/
+
+# VS Code settings
+.vscode/
+
+# Generated research output folders
+Re-testing/
+paperwork/test_16bit/
+paperwork/results_16bit/
+paperwork/final_results/
+paperwork/final_results12/
+paperwork/final_results13/
+paperwork/final_results14/
+paperwork/final_results15/
+paperwork/final_results16/
+paperwork/dynamic_results/
+paperwork/dynamic_results1/
+paperwork/logistic_map_analysis/
+paperwork/medic_results/
+paperwork/medic_results1/
+paperwork/medic_results2/
+paperwork/medical_test5/
+paperwork/medical_test6/
+
+# Images and medical datasets
+*.png
+*.jpg
+*.jpeg
+*.bmp
+*.tif
+*.tiff
+*.dcm
+*.dicom
+
+# Common generated artifacts
+*.log
+*.tmp
+*.bak
+
+# Local notebooks / caches
+.ipynb_checkpoints/
